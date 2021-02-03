@@ -2,8 +2,9 @@
 // Write a Function to compute the roundof selling price.
 
 // Write a Function to return compute the doundof selling price.
-function find_SellingPrice(a,b){
-    
-    return null;
+function find_SellingPrice(a, b) {
+    var selling;
+    selling = (a * (100 - b)) / 100;
+    return Math.round(selling);
 }
 //Use SpecRunner to check the Test Cases.
